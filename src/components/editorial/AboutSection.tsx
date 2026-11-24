@@ -19,8 +19,8 @@ export function AboutSection() {
             <div className="mx-auto max-w-sm overflow-hidden rounded-2xl border border-[#361F13]/15 bg-[#F1E7D6] p-3">
               <div className="aspect-[4/5] w-full overflow-hidden rounded-xl bg-[#361F13]">
                 <img
-                  src="/images/sabrina-editorial-2.jpg"
-                  alt="Sabrina Feitosa em estúdio segurando câmera Nikon com equipamento de iluminação ao fundo"
+                  src="/images/sabrina-editorial-1.jpg"
+                  alt="Foto tirada pela Sabrina Feitosa"
                   loading="lazy"
                   className="h-full w-full object-cover object-top"
                 />

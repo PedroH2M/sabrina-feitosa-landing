@@ -83,7 +83,7 @@ export function HeroSection() {
           <figure className="relative mx-auto max-w-sm overflow-hidden rounded-t-[10rem] rounded-b-2xl border border-[#361F13]/15 bg-[#F1E7D6] p-4 shadow-sm sm:p-5">
             <div className="relative aspect-[4/5] w-full overflow-hidden rounded-t-[8.75rem] rounded-b-xl bg-[#361F13]">
               <img
-                src="/images/sabrina-editorial-1.jpg"
+                src="/images/sabrina-editorial-2.jpg"
                 alt="Retrato editorial de Sabrina Feitosa sob iluminação quente em tons âmbar e marrom"
                 className="h-full w-full object-cover object-top"
               />
