@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    /* 60% Creme */
+    --cream: #FAF5EC;
+    --cream-alt: #F1E7D6;
+    --cream-card: #FFFDF9;
+
+    /* 30% Marrom */
+    --brown: #361F13;
+    --brown-deep: #24130B;
+    --brown-mid: #5E3C2B;
+    --brown-soft: #7A5745;
+
+    /* 10% Mostarda */
+    --mustard: #D49B27;
+    --mustard-bright: #E4AF3C;
+    --mustard-ink: #8C620E;
+    --mustard-soft: #F3DFB0;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: var(--cream);
+    color: var(--brown);
+  }
+
+  body {
+    overflow-x: hidden;
+    -webkit-tap-highlight-color: rgba(212, 155, 39, 0.25);
+  }
+
+  :focus-visible {
+    outline: 2px solid #D49B27;
+    outline-offset: 3px;
+  }
+}
+
+.font-editorial {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
